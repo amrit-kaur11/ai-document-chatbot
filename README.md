@@ -64,3 +64,10 @@ Paste a Google Docs link
 Click Ingest
 
 Ask questions related to the document
+```
+
+##Demo
+
+![Demo Screenshot](Screenshot 2026-01-17 115221.png) --> Frontend
+![Demo Screenshot](Screenshot 2026-01-17 115242.png) --> Backend
+
