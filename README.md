@@ -66,6 +66,8 @@ Click Ingest
 Ask questions related to the document
 ```
 
+---
+
 ##Demo
 
 ![Frontend](Demo Screenshot/Frontend.png)
