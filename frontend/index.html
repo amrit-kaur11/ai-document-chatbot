@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Document Chatbot</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>📄 AI Document Chatbot</h1>
+    <p>Upload a document and ask intelligent questions</p>
+  </header>
+
+  <main>
+    <div class="card">
+      <h2>📂 Document Ingestion</h2>
+      <div class="row">
+        <input id="docUrl" placeholder="Paste Google Docs URL here" />
+        <button id="ingestBtn">Ingest</button>
+      </div>
+      <p id="ingestStatus" class="status"></p>
+    </div>
+
+    <div class="card">
+      <h2>❓ Ask a Question</h2>
+      <div class="row">
+        <input id="question" placeholder="Ask something about the document" />
+        <button id="askBtn">Ask</button>
+      </div>
+
+      <div class="answer-box">
+        <strong>Answer:</strong>
+        <p id="answer">Waiting for your question…</p>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

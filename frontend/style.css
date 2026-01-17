@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #0f172a, #020617);
+  color: #e5e7eb;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px 10px;
+}
+
+header h1 {
+  font-size: 2.2rem;
+}
+
+header p {
+  opacity: 0.8;
+}
+
+main {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 14px;
+  padding: 25px;
+  margin-bottom: 30px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 40px rgba(0,0,0,0.4);
+}
+
+.card h2 {
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+button {
+  padding: 12px 18px;
+  border-radius: 8px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+button.loading {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.status {
+  margin-top: 12px;
+  font-size: 0.95rem;
+}
+
+.status.success {
+  color: #22c55e;
+}
+
+.status.error {
+  color: #ef4444;
+}
+
+.answer-box {
+  margin-top: 20px;
+  background: rgba(0,0,0,0.3);
+  padding: 15px;
+  border-radius: 10px;
+}
